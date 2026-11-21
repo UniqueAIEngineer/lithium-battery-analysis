@@ -8,9 +8,9 @@ st.title("バッテリ劣化判定ツール v6")
 st.caption("内部抵抗（Re・Rct）から劣化を判定します。容量は使いません")
 st.caption("学習データの範囲：Re 0.036〜0.107 Ω、Rct 0.060〜0.139 Ω（範囲外の値は判定の信頼性が下がります）")
 
-re_first = st.number_input("最初のRe（Ω）",value=0.050,format="%.4f")
-re_now = st.number_input("今のRe（Ω）",value=0.055,format="%.4f")
-rct = st.number_input("今のRct（Ω）",value=0.083,format="%.4f")
+re_first = st.number_input("最初のRe（Ω）",min_value=0.001,value=0.050,format="%.4f")
+re_now = st.number_input("今のRe（Ω）",min_value=0.001,value=0.055,format="%.4f")
+rct = st.number_input("今のRct（Ω）",min_value=0.001,value=0.083,format="%.4f")
 
 if st.button("判定"):
     re_ratio = re_now/re_first

@@ -1,5 +1,7 @@
-numpy
-pandas
-matplotlib
-scikit-learn
-jupyter
+joblib==1.6.0
+matplotlib==3.10.9
+matplotlib-inline==0.2.2
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+streamlit==1.65.0

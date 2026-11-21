@@ -83,7 +83,7 @@ Re・Rct は、電池のインピーダンス測定で得られる値です（Re
 テスト：
 
 ```
-pytest
+python -m pytest
 ```
 
 ## ファイル

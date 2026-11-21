@@ -98,7 +98,7 @@ pytest
 - `01_explore.ipynb`：データの確認から検証までの記録
 - `judge.py`：比較用の線1本のルール
 - `test_judge.py`：テスト
-- `old/`：前作 v5 一式
+- `old/`：前作 v5 一式と、最初のたたき台（battery_analysis.py、simple_batt_IR_NEO.ipynb）
 
 ## 出典
 

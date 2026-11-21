@@ -64,8 +64,8 @@ v5 は劣化を容量で決めているのに、容量を入力に入れてい�
 Python 3.10 で動作を確認しています。
 
 ```
-pip install -r requirements.txt
-streamlit run app.py
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
 ```
 
 ブラウザが開いたら、最初の Re・今の Re・今の Rct を入れて「判定」を押します。
